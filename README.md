@@ -41,6 +41,14 @@ Get top tourist spots:
 3. Run all code inside it.
 4. The final result will be saved to "/TwitterDataTourism-sentimentnalysiswith1.6M/Processed_data/FinalReport.csv" after the succesfull execution of the script.
 
-If you have all the required packages installed, you just need the 4 input files mentioned right above. Then you just need to execute the "GetTopTouristSpots.ipynb" file to generate your top tourist spot list. The final result will be saved to "FinalReport.csv" after the succesfull execution of the script.
+To get characteristics of city:
+1. Go to "/CharacteristicsOfCity/"
+2. Run "python Characteristics.py" 
+3. Output is created in same folder "characteristics.csv"
 
-Note: Please note the input tweets file is large and the program takes some time to execute the whole thing.
+To get popular hashtags:
+1. Go to folder "/Hashtag-extraction/"
+2. Run python notebook "ProminentHashtags.ipynb"
+3. Output is in "/Hashtag-extraction/ProcessedDataSet/hashtag_NY.csv".
+Note: Current hashtag extraction is for New York dataset.
+
