@@ -27,15 +27,14 @@ Python Packages:
 - numpy
 - preprocessing from sklearn
 
-Models already created and saved, used as input:
+Models input files:
 - /Model/sentiment_model3.0.sav
 - /Model/tfidf_vectorizer3.0.sav
 
-Tweets input file:
+Tweets input files:
 - /Raw_data/full_LA_Oct-Dec2017.csv
 - /Raw_data/pointOfInterests.csv
 
-If you have all the required packages installed, you just need the input file,"full_LA_Oct-Dec2017.csv", "sentiment_model3.0.sav", 
-"tfidf_vectorizer3.0.sav" in the local directory. Then you just need to execute the "GetTopTouristSpots.ipynb" file to generate your top tourist spot list. The final result will be saved to "FinalReport.csv" after the succesfull execution of the script.
+If you have all the required packages installed, you just need the 4 input files mentioned right above. Then you just need to execute the "GetTopTouristSpots.ipynb" file to generate your top tourist spot list. The final result will be saved to "FinalReport.csv" after the succesfull execution of the script.
 
 Note: Please note the input tweets file is large and the program takes some time to execute the whole thing.
